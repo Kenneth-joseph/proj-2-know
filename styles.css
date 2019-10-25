@@ -1,0 +1,11 @@
+h1{
+    text-align: center;
+}
+form{
+    border: 2px solid black;
+    width: 50%;
+    margin:0 auto;
+    /* align-content: center;
+     */
+     padding:20px;
+}
