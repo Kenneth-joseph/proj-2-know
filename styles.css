@@ -37,3 +37,10 @@ input[type=radio],label{
     margin-top:60px;
 
 }
+
+#paragraph{
+ text-align: justify;
+ color: white;
+ font-size:18px;;
+ 
+}
