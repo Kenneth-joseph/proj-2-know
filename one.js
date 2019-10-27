@@ -43,7 +43,7 @@ function oncalculate()
 
   for(var a=0;a< maleName.length;a++){
       if(a===dayOfTheWeek){
-          alert(maleName[a]);
+          alert("your Akan name is " + maleName[a]);
       }
   }
 //   var gender;
