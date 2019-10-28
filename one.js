@@ -1,15 +1,4 @@
 
-// function verifyNumber( myInput ){
-//     if( !isNaN( parseFloat( myInput.value ) ) && isFinite( myInput.value ) )
-//         return true;
-//     else
-//         return false;
-// }
-
-
-
-
-
 function oncalculate()
 {
     var maleName =["kwasi", "kwadwo","kwabena","kwaku","yaw","kofi","kwame"];
@@ -18,6 +7,9 @@ function oncalculate()
     var dayOfBirth = parseInt(document.getElementById("day").value);
     var monthOfBirth= parseInt(document.getElementById("month").value);
     var yearOfBirth= document.getElementById("year").value;
+    var genderM = document.getElementById("male");
+    var genderF = document.getElementById("female");
+
      
     
     if( dayOfBirth <= 0 || dayOfBirth>31)
@@ -40,12 +32,20 @@ function oncalculate()
 
    
    var dayOfTheWeek= Math.round(( ( (c/4) - 2 * c - 1) + ((5*y/4) ) + ((26*(m+1)/10)) + d ) %7);
-
+ if(genderM.checked==true){
   for(var a=0;a< maleName.length;a++){
-      if(a===dayOfTheWeek){
+      if(a===dayOfTheWeek-1){
           alert("your Akan name is " + maleName[a]);
       }
   }
-//   var gender;
+}
+else if(genderF.checked==true){
+    for(var a=0;a< femaleName.length;a++){
+        if(a===dayOfTheWeek-1){
+            alert("your Akan name is " + femaleName[a]);
+        }
+    }
+
+}
     
 }
