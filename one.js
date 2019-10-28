@@ -1,7 +1,7 @@
 
 function oncalculate()
 {
-    var maleName =["kwasi (sunday", "kwadwo (Monday)","kwabena (Tuesday)","kwaku (Wednesday)","yaw (Thursday)","kofi (Friday)","kwame (Saturday)"];
+    var maleName =["kwasi (sunday)", "kwadwo (Monday)","kwabena (Tuesday)","kwaku (Wednesday)","yaw (Thursday)","kofi (Friday)","kwame (Saturday)"];
     var femaleName=["Akosua (sunday)", "Adwao (Monday)","Abenaa (Tuesday)", "Akua (Wednesday)","Yaa (Thursday)","Afua (Friday)","Ama (Saturday)"];
 
     var dayOfBirth = parseInt(document.getElementById("day").value);
