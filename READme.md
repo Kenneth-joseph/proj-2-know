@@ -15,4 +15,8 @@
 >This page entirely is build to help  the users know there AKAN name following the Ghanian naming style of week days
 
 ## Who it serves
-This page is meant for the public anybody can use it to know there AKAN names.
+>This page is meant for the public anybody can use it to know there AKAN names.
+
+## Access the site
+> To access the website, click on the link provided here;
+>

@@ -1,8 +1,8 @@
 
 function oncalculate()
 {
-    var maleName =["kwasi", "kwadwo","kwabena","kwaku","yaw","kofi","kwame"];
-    var femaleName=["Akosua", "Adwao","Abenaa", "Akua","Yaa","Afua"];
+    var maleName =["kwasi(sunday", "kwadwo(Monday)","kwabena(Tuesday)","kwaku(Wednesday)","yaw(Thursday)","kofi(Friday)","kwame(Saturday)"];
+    var femaleName=["Akosua (sunday)", "Adwao(Monday)","Abenaa(Tuesday)", "Akua(Wednesday)","Yaa(Thursday)","Afua(Friday)","Ama(Saturday)"];
 
     var dayOfBirth = parseInt(document.getElementById("day").value);
     var monthOfBirth= parseInt(document.getElementById("month").value);
@@ -33,9 +33,10 @@ function oncalculate()
    
    var dayOfTheWeek= Math.round(( ( (c/4) - 2 * c - 1) + ((5*y/4) ) + ((26*(m+1)/10)) + d ) %7);
  if(genderM.checked==true){
+     
   for(var a=0;a< maleName.length;a++){
       if(a===dayOfTheWeek-1){
-          alert("your Akan name is " + maleName[a]);
+          alert("your Akan name is " + maleName[a] );
       }
   }
 }
