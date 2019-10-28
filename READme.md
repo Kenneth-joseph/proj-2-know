@@ -19,4 +19,4 @@
 
 ## Access the site
 > To access the website, click on the link provided here;
->
+>[akan naming](https://kenneth-joseph.github.io/proj-2-know/)
