@@ -11,7 +11,10 @@ function oncalculate()
     var genderF = document.getElementById("female");
     var display= document.getElementById("display");
 
-     
+    if (dayOfBirth== null || dayOfBirth == "", monthOfBirth == null || monthOfBirth== "", yearOfBirth == null || yearOfBirth == "") {
+        alert("Please Fill All Required Field");
+        return false;
+      }
     
     if( dayOfBirth <= 0 || dayOfBirth>31)
      {
